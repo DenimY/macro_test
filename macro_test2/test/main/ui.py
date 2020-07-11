@@ -231,6 +231,7 @@ class WindowClass(QMainWindow, form_class):
 
     def button2Function(self):
         print('clicked button2')
+        pass
 
     def updatePosition(self, data):
         self.TEXT_CUR_POS_X.setText(str(data[0]))
